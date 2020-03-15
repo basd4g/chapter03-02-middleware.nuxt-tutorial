@@ -13,6 +13,13 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
+  // /middleware/auth.jsの登録
+  router: {
+    middleware: [
+      'auth'
+    ]
+  },
+
   /*
   ** Customize the progress bar color
   */
